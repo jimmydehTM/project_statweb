@@ -1,0 +1,46 @@
+/* root reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* adding fonts */
+@font-face {
+    font-family: 'grold';
+    src: url("/fonts/grold-regular.woff2") format("opentype");
+    font-family: 'knockout';
+    src: url("/fonts/knockout-27.woff2") format("opentype");
+}
+
+/* gradient body background */
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(57,255,96,1) 100%);
+}
+
+.container-fluid {
+
+    width: auto;
+}
+
+
+a {
+    text-decoration: none;
+    color: #39FF60;
+    font-family: 'knockout';
+    font-size: 2.5rem;
+    margin: 20px;
+}
+
+
+a.active {
+    color: #ffffff;  
+}
+
+
+h1,h3,p {
+
+    color: #ffffff;
+}
+
+
