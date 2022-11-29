@@ -16,6 +16,7 @@
 body {
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(57,255,96,1) 100%);
+    
 }
 
 .container-fluid {
@@ -43,4 +44,10 @@ h1,h3,p {
     color: #ffffff;
 }
 
+
+img {
+    max-width: 100%;
+    height: auto;
+    
+}
 
