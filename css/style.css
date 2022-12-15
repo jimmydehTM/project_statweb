@@ -12,12 +12,8 @@
     src: url("/fonts/knockout-27.woff2") format("opentype");
 }
 
-/* gradient body background */
-body {
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(57,255,96,1) 100%);
-    
-}
+
+
 
 .container-fluid {
 
@@ -25,29 +21,82 @@ body {
 }
 
 
+
+
 a {
     text-decoration: none;
-    color: #39FF60;
+    color: #000000;
     font-family: 'knockout';
     font-size: 2.5rem;
     margin: 20px;
 }
 
+#contact-link {
+
+    margin: 0px;
+    font-size: 1.5rem;
+    text-decoration-line: underline;
+    font-family: 'grold';
+}
+
 
 a.active {
-    color: #ffffff;  
+    color: #9b9b9b;  
 }
 
 
-h1,h3,p {
-
-    color: #ffffff;
+#hello-header {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom,
+     rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+      url(/images/depositphotos_7233769-stock-photo-magic-light-and-walkway-in.jpg);
 }
 
+.hello-header-text {
 
-img {
-    max-width: 100%;
-    height: auto;
+    color: white;
     
 }
 
+h1,h3,p,h4 {
+
+    color: #000000;
+    
+}
+
+h4 {    
+
+    font-family: 'grold';
+}
+
+
+#nav-image {
+    height: 40px;
+    position: relative;
+    
+  }
+
+
+
+
+  @media (max-width: 990px) {
+    #nav-image {  
+        visibility: hidden;
+    }
+  }
+
+.bi:hover {
+    color: white;
+}
+
+.text-white {
+
+        font-size: 1rem;
+        font-family: 'verdana';
+}
+
+button:focus {
+    border: transparent;
+    outline:transparent;
+}
