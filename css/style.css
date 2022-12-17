@@ -13,7 +13,7 @@
 }
 
 
-
+/* index.html */
 
 .container-fluid {
 
@@ -23,7 +23,7 @@
 
 
 
-a {
+.menu {
     text-decoration: none;
     color: #000000;
     font-family: 'knockout';
@@ -45,7 +45,7 @@ a.active {
 }
 
 
-#hello-header {
+#header-index {
     background-size: cover;
     background-repeat: no-repeat;
     background-image: linear-gradient(to bottom,
@@ -78,13 +78,12 @@ h4 {
   }
 
 
-
-
-  @media (max-width: 990px) {
+@media (max-width: 990px) {
     #nav-image {  
         visibility: hidden;
     }
   }
+
 
 .bi:hover {
     color: white;
@@ -100,3 +99,36 @@ button:focus {
     border: transparent;
     outline:transparent;
 }
+
+
+
+/* cv.html */
+#header-cv {
+    width: auto;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom,
+    rgba(0, 0, 0, 0.685), rgba(0, 0, 0, 0.73)), url(/images/bridge-3024773_960_720.jpg);
+    
+    
+}
+
+.header-cv-text {
+    font-family: 'sans-serif';
+    color: white;
+}
+
+hr {
+    height: 4px;
+    margin-left: 15px;
+    margin-bottom:-3px;
+  }
+
+  .hr-primary{
+    background-image: -webkit-linear-gradient(left, rgba(66,133,244,.8), rgba(66, 133, 244,.6), rgba(0,0,0,0));
+  }
+
+
+
+  
