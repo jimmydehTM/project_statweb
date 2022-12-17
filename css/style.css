@@ -131,4 +131,23 @@ hr {
 
 
 
-  
+  /* Set the size of the div element that contains the map */
+#map {
+    height: 400px; /* The height is 400 pixels */
+     /* The width is the width of the web page */
+  }
+
+  .contact-muted {
+
+    color: #ad0606 !important;
+    font-style: italic !important;
+  }
+
+  .card-text-italic {
+    font-style: italic !important;
+  }
+
+  #contact-scheiding {
+    border: 5px solid black;
+    
+  }
