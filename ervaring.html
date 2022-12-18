@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-    <title>Ervaring?</title>
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/style.css"> 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="images/favicon-16x16.png" type="image/x-icon">
+  <title>Ervaring?</title>
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="/vendor/node_modules/owl.carousel/dist/assets/owl.carousel.min.css" />
+
+
 </head>
+
 <body>
   <div class="container py-4">
     <!-- navbar -->
@@ -17,13 +22,13 @@
       <nav class="navbar navbar-expand-lg mb-3">
         <img src="/images/output-onlinejpgtools.png" alt="#" id="nav-image">
         <div class="container-fluid">
-          <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
             aria-label="Toggle navigation">
-            <i class="bi bi-list p-0"></i>
-              
+            <span class="navbar-toggler-icon"></span>  
+
           </button>
-          <div class="collapse navbar-collapse border border-0" id="navbarSupportedContent">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 border border-0" id="navigation">
               <li class="nav-item"><a class="menu" aria-current="page" href="index.html" id="home">Home</a>
               </li>
@@ -36,52 +41,155 @@
         </div>
       </nav>
     </header>
-    <!-- end of navbar -->
+    <!-- End of navbar -->
 
-    <h1>Wat is mijn ervaring?</h1>
-    <p>Goh, dat loopt zover uiteen...
-        <br>
-        Uiteindelijk komt het allemaal op 1 ding neer: Technische Problem oplossen.
-        <br> 
-        <br>
-        Ik sleutel voor men broodwinning aan industriele installaties, waarbij ik het ene moment met klein gereedschap bezig ben.
-        En het andere moment met heel groot gereedschap (lees: sleutel van 70cm doorsnede!)
-        Daarvoor was ik process technieker. Dit hield in dat ik de productie van plastic verpakkingen op punt stelde.
-        Dit deed ik ter plaatste aan de machines maar ook via data analyse. Die data haalde ik uit de databases met scripts en dan bracht ik deze via Excel in kaart.
-        Zo kreeg ik een overzicht van waar er productietijd gewonnen en verloren werdt. Dan heb je dus harde data van je winsten en verliezen, in plaats van een subjectief oordeel.
-        Dit werd dan dagelijks gerapporteerd. Dit laatse goot ik later in een automatisch process, waarbij men rapportering met alle gegevens van die dag dus automatisch in de mailbox van men supervisor kwam.
+    <main>
+      <!-- Intro section -->
+      <section>
+        <div class="p-4 mb-5" id="header-ervaring">
+          <div class="container-fluid py-1 text-center">
+            <h1 class="display-5 fw-bold hello-header-text">Ervaring in het IT veld</h1>
+            <p class="cold-md-8 fs-4 hello-header-text">Hieronder enkele voorbeelden van mijn werk en ervaring</p>
+            <form action="contact.html">
+              <button type="submit" class="btn btn-outline-light">Contact</button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <!-- End of intro section -->
 
-        <br>
-        <br>
-        Mijn ervaring is dus heel divers. Doorgaans ben ik sterk in het analyseren en oplossen van technische problemen.
-        <br>
-        Van een machine die het niet doet, tot je PC die plots niet meer werkt. Meestal vind ik de oorzaak wel.
-        <br>
-        <br>
-        Vandaar ook mijn keuze om de IT in te gaan. Ik werk nu eenmaal graag met technologie... Hoe complexer hoe beter! :)
-     </p>
-     <footer>
+      <!-- example section -->
+      <section>
+        <div class="text-center mt-4 mb-4">
+          <h1>Websites/API's</h1>
+        </div>
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+          <!-- first example card -->
+          <div class="col d-flex align-items-stretch">
+            <div class="card">
+              <a href="https://jimmydeh.github.io/WeatherApp/" target="_blank"><img src="/images/weer.png"
+                  class="img-fluid" alt="weatherapp"></a>
+              <div class="card-body">
+                <h5 class="card-title">Weather app</h5>
+                <p class="card-text">Kleine weer app met de bedoeling van webAPI's uit te testen.</p>
+              </div>
+            </div>
+          </div>
+          <!-- End of first example card -->
+
+          <!-- Second example card -->
+          <div class="col d-flex align-items-stretch">
+            <div class="card">
+              <a href="https://jimmydeh.github.io/apitest/" target="_blank"><img src="/images/thumbnail.png"
+                  class="img-fluid" alt="apitest"></a>
+              <div class="card-body">
+                <h5 class="card-title">NASA app</h5>
+                <p class="card-text">kleine webApp die gebruikt maakt van de NASA API. Met elke klik op de knop laat je
+                  nieuw weetje zien!</p>
+              </div>
+            </div>
+          </div>
+          <!-- End of second example card -->
+
+          <!-- Third example card -->
+          <div class="col d-flex align-items-stretch">
+            <div class="card">
+              <a href="https://jimmydeh.github.io/wishlist/#" target="_blank"><img src="/images/wish.png"
+                  class="img-fluid" alt="wishlist"></a>
+              <div class="card-body">
+                <h5 class="card-title">Wishlist</h5>
+                <p class="card-text">Kleine wishlist app gemaakt met locale API data.</p>
+              </div>
+            </div>
+          </div>
+          <!-- End of third example card -->
+
+          <!-- Fourth example card -->
+          <div class="col d-flex align-items-stretch">
+            <div class="card">
+              <a href="https://jimmydeh.github.io/fake-store/" target="_blank"><img src="/images/previeuw.png"
+                  class="img-fluid" alt="fake-store"></a>
+              <div class="card-body">
+                <h5 class="card-title">Webshop</h5>
+                <p class="card-text">Webshop voorbeeld, alle data komt uit een webAPI en wordt per categorie op de
+                  website geplaatst.</p>
+              </div>
+            </div>
+          </div>
+          <!-- End of fourth example card -->
+
+        </div>
+      </section>
+      <!-- End of example section -->
+
+      <!-- start of experience section -->
+      <section>
+        <div class="text-center mt-4">
+          <h1>Daarnaast heb ik ook ervaring met:</h1>
+        </div>
+        <div class="owl-carousel owl-theme mt-5 text-center">
+          <div> <img src="/images/csharp.png" alt="csharp">
+            <dt>Csharp</dt>
+          </div>
+          <div> <img src="/images/linux.png" alt="linux">
+            <dt>Linux</dt>
+          </div>
+          <div> <img src="/images/vmWare.png" alt="vmWare">
+            <dt>vmWare</dt>
+          </div>
+          <div> <img src="/images/gitBash.png" alt="gitbash">
+            <dt>Github/Gitbash</dt>
+          </div>
+          <div> <img src="/images/bash.png" alt="bash">
+            <dt>Terminal/Bash</dt>
+          </div>
+          <div> <img src="/images/raspberry.png" alt="raspberry">
+            <dt>RaspberryPI</dt>
+          </div>
+          <div> <img src="/images/arduino.png" alt="arduino">
+            <dt class="mt-3">Arduino</dt>
+          </div>
+          <div> <img src="/images/office.png" alt="Office">
+            <dt>Office</dt>
+          </div>
+          <div> <img src="/images/mongoDb.png" alt="MongoDb">
+            <dt>MongoDb</dt>
+          </div>
+          <div> <img src="/images/SQL.png" alt="raspberry">
+            <dt>SQL</dt>
+          </div>
+        </div>
+      </section>
+      <!-- End of experience section -->
+    </main>
+
+      <!-- footer -->
+    <footer>
       <div class="container my-5">
-  
         <footer class="text-center text-lg-start" style="background-color: #6161611f;">
           <div class="container d-flex justify-content-center py-3">
-            <a href="https://www.facebook.com/" target="_blank"><button type="button" class="btn btn-lg btn-floating mx-2" style="background-color: #54456b00;">
-              <i class="bi bi-facebook" style="font-size: 2rem"></i>
-            </button></a>
-            <a href="https://youtube.com/" target="_blank"><button type="button" class="btn btn-lg btn-floating mx-2" style="background-color: #00000000;">
-              <i class="bi bi-youtube" style="font-size: 2rem"></i>
-            </button></a>
-            <a href="https://www.instagram.com/" target="_blank"><button type="button" class="btn btn-lg btn-floating mx-2" style="background-color: #03030300;">
-              <i class="bi bi-instagram" style="font-size: 2rem"></i>
-            </button></a>
-            <a href="https://www.twitter.com/" target="_blank"><button type="button" class="btn btn-lg btn-floating mx-2" style="background-color: #05050500;">
-              <i class="bi bi-twitter" style="font-size: 2rem"></i>
-            </button></a>
-            <a href="https://github.com/jimmydehTM" target="_blank"><button type="button" class="btn btn-lg btn-floating mx-2" style="background-color: #05050500;">
-              <i class="bi bi-github" style="font-size: 2rem"></i>
-            </button></a>
+            <a href="https://www.facebook.com/" target="_blank"><button type="button"
+                class="btn btn-lg btn-floating mx-2" style="background-color: #54456b00;">
+                <i class="bi bi-facebook" style="font-size: 2rem"></i>
+              </button></a>
+            <a href="https://youtube.com/" target="_blank"><button type="button" class="btn btn-lg btn-floating mx-2"
+                style="background-color: #00000000;">
+                <i class="bi bi-youtube" style="font-size: 2rem"></i>
+              </button></a>
+            <a href="https://www.instagram.com/" target="_blank"><button type="button"
+                class="btn btn-lg btn-floating mx-2" style="background-color: #03030300;">
+                <i class="bi bi-instagram" style="font-size: 2rem"></i>
+              </button></a>
+            <a href="https://www.twitter.com/" target="_blank"><button type="button"
+                class="btn btn-lg btn-floating mx-2" style="background-color: #05050500;">
+                <i class="bi bi-twitter" style="font-size: 2rem"></i>
+              </button></a>
+            <a href="https://github.com/jimmydehTM" target="_blank"><button type="button"
+                class="btn btn-lg btn-floating mx-2" style="background-color: #05050500;">
+                <i class="bi bi-github" style="font-size: 2rem"></i>
+              </button></a>
           </div>
-  
+
           <!-- Copyright -->
           <div class="text-center text-white p-2" style="background-color: rgba(0, 0, 0, 0.2);">
             © 2022 Copyright:
@@ -90,8 +198,14 @@
           <!-- Copyright -->
       </div>
     </footer>
-  </div> <!-- Closing div main container -->
-  
-     <script src="/js/bootstrap.bundle.js"></script>
+    <!-- End of footer -->
+  </div> 
+  <!-- Closing div main container -->
+
+  <!-- Scripts -->
+  <script src="/js/bootstrap.bundle.js"></script>
+  <script src="/vendor/node_modules/jquery/dist/jquery.js"></script>
+  <script src="/vendor/node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+  <script src="/js/owl.js"></script>
 </body>
 </html>
